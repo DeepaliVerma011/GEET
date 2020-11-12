@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ThemeOverlay.AppCompat.Dark"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="124dp"
+
+
+        android:src="@drawable/ic_baseline_account_circle_24"
+
+        >
+
+    </ImageView>
+
+
+</LinearLayout>

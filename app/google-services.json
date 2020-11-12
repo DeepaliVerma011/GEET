@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1081539119860",
+    "firebase_url": "https://tara-80ec5.firebaseio.com",
+    "project_id": "tara-80ec5",
+    "storage_bucket": "tara-80ec5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081539119860:android:d8d8498f431173831b6ca1",
+        "android_client_info": {
+          "package_name": "com.example.tara"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1081539119860-d7tk453q0v9r5ivqrqsudknbuv2c2nib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_TN_OxvEBg0hI5Pg3seXHRoG6xu75vuk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1081539119860-d7tk453q0v9r5ivqrqsudknbuv2c2nib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

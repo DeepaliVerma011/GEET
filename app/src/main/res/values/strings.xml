@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GEET</string>
+    <string name="close">close</string>
+    <string name="open">open</string>
+
+    <string name="first">first</string>
+    <string name="second">second</string>
+    <string name="third">third</string>
+</resources>

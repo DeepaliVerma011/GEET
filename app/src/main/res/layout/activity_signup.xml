@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:focusable="auto"
+    android:orientation="vertical"
+
+    android:paddingLeft="10sp"
+    android:paddingTop="2sp"
+    android:paddingRight="10sp"
+    tools:context=".signup">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="376dp"
+        android:layout_height="115dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="1dp"
+        android:baselineAlignBottom="true"
+        android:src="@drawable/ic_baseline_account_circle_24" />
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <EditText
+            android:id="@+id/jemail"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginBottom="2sp"
+            android:ellipsize="middle"
+            android:ems="10"
+
+            android:hint="email"
+            android:inputType="text"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="15sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <EditText
+            android:id="@+id/jusername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:ems="10"
+            android:hint="Username"
+            android:inputType="text"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="15sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <EditText
+            android:id="@+id/jpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="password"
+            android:inputType="text"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="15sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <EditText
+            android:id="@+id/jconfirmpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:ems="10"
+            android:hint="confirm password"
+            android:inputType="text"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="15sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <EditText
+            android:id="@+id/jphonenumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:ems="10"
+            android:hint="phone number"
+            android:inputType="text"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="15sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/jbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_rounded"
+        android:padding="13dp"
+        android:text="REGISTER" />
+
+
+
+        <TextView
+            android:id="@+id/jtextview"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Already registered?"></TextView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/jbutton2"
+        android:layout_width="78dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_rounded"
+        android:text="LOGIN" />
+
+
+</LinearLayout>
