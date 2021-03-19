@@ -4,6 +4,43 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
+
     tools:context=".about">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginBottom="579dp"
+        android:background="@drawable/button_rounded"
+        android:gravity="center_horizontal"
+        android:text="ABOUT US"
+        android:textColor="#1B1919"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="331dp"
+        android:layout_height="293dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="500dp"
+        android:textAlignment="center"
+        android:textColor="#212220"
+        android:textSize="15dp"
+        android:text="With Geet, it’s easy to find the right music or podcast for every moment – on your phone, your computer, your tablet and more.There are millions of tracks and episodes on Geet. So whether you’re behind the wheel, working out, partying or relaxing, the right music or podcast is always at your fingertips. Choose what you want to listen to, or let Geet surprise you.You can also browse through the collections of friends, artists, and celebrities, or create a radio station and just sit back.Soundtrack your life with Geet. Subscribe or listen for free"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.104" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

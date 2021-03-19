@@ -73,11 +73,11 @@ txtbutton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                String email = txtemail.getText().toString().trim();
-                 String username = txtusername.getText().toString().trim();
-                 String password = txtpassword.getText().toString();
-                String phoneNo = txtphonenumber.getText().toString();
-                 String confirmpassword = txtconfirmpassword.getText().toString();
+                final String email = txtemail.getText().toString().trim();
+                  final String username = txtusername.getText().toString().trim();
+                  final String password = txtpassword.getText().toString();
+                  final String phoneNo = txtphonenumber.getText().toString();
+                  final String confirmpassword = txtconfirmpassword.getText().toString();
 
 
 
