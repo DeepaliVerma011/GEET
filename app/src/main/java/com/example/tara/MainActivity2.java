@@ -109,19 +109,17 @@ public class MainActivity2 extends AppCompatActivity implements NavigationView.O
             Intent myintent = new Intent(getApplicationContext(), feedback.class);
             startActivity(myintent);
         }
-           else if(item.getItemId() ==R.id.nav_privacypolicy){
+       else if(item.getItemId() ==R.id.nav_privacypolicy){
                 Intent myintent = new Intent(getApplicationContext(), privacypolicy.class);
                 startActivity(myintent);
             }
-
-        else if(item.getItemId() ==R.id.logout){
+       else if(item.getItemId() ==R.id.logout){
             Intent myintent = new Intent(getApplicationContext(),login.class);
             FirebaseAuth.getInstance().signOut();
+            finish();
+            startActivity(myintent);
 
         }
-
-
-
         return false;
     }
 }
