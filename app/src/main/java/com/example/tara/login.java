@@ -72,6 +72,7 @@ Firebaseauth.signInWithEmailAndPassword(email,password).addOnCompleteListener(ne
     @Override
     public void onComplete(@NonNull Task<AuthResult> task) {
         if(task.isSuccessful()){
+            finish();
             startActivity(new Intent(getApplicationContext(),MainActivity2.class));
             Toast.makeText(login.this, "successfully logged in", Toast.LENGTH_SHORT).show();
         }

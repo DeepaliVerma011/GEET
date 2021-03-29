@@ -6,48 +6,53 @@
     android:layout_height="match_parent"
     tools:context=".privacypolicy">
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/privacyPolicyLogo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/privacy_policy"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar" />
+
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="300dp"
+        android:id="@+id/privacyPolicyGEET1"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="106dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="106dp"
-        android:layout_marginBottom="579dp"
-        android:background="@drawable/button_rounded"
-        android:gravity="center_horizontal"
-        android:text="PRIVACY AND POLICY"
-        android:textColor="#1B1919"
-        android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/privacyPolicyLogo"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textSize="17sp"
+        android:gravity="center"
+        android:textColor="?android:attr/textColorPrimary"
+        android:text="@string/privacy_policy_1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        app:layout_constraintStart_toStartOf="parent" />
     <TextView
-        android:layout_width="305dp"
-        android:layout_height="348dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="60dp"
-        android:layout_marginBottom="175dp"
-        android:text="Thanks for choosing Geet!
-
-At Geet, we want to give you the best possible experience to ensure
-that you enjoy our service. To do this we need to understand your streaming
-habits so we can deliver an exceptional and personalized service
-specifically for you. Your privacy and the security of your personal data
-is, and will always be, enormously important to us. So, we want to
-transparently explain how and why we gather, store, share and use your
-personal data - as well as outline the controls and choices you have
-around when and how you choose to share your personal data.
-That is our objective!"
-        android:textAlignment="center"
-        android:textColor="#070707"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/privacyPolicyGEET2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="40dp"
+        android:text="@string/privacy_policy_2"
+        android:textSize="17sp"
+        android:gravity="center"
+        android:textColor="?android:attr/textColorPrimary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView">
+        app:layout_constraintTop_toBottomOf="@id/privacyPolicyGEET1" />
 
-    </TextView>
 </androidx.constraintlayout.widget.ConstraintLayout>
