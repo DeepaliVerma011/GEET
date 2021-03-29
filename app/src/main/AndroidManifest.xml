@@ -26,7 +26,8 @@
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity android:name=".feedback" />
         <activity android:name=".help" />
-        <activity android:name=".about" />
+        <activity android:name=".about"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity android:name=".home" />
         <activity
             android:name=".MainActivity2"
