@@ -111,6 +111,7 @@ txtbutton2.setOnClickListener(new View.OnClickListener() {
                                 @Override
                                 public void onComplete(@NonNull Task<AuthResult> task) {
                                     if (task.isSuccessful()) {
+                                        finish();
                                         startActivity(new Intent(getApplicationContext(),MainActivity2.class));
                                         userID = Firebaseauth.getCurrentUser().getUid();
                                         DocumentReference documentReference= fstore.collection("users").document(userID);

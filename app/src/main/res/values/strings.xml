@@ -2,8 +2,26 @@
     <string name="app_name">GEET</string>
     <string name="close">close</string>
     <string name="open">open</string>
-
     <string name="first">first</string>
     <string name="second">second</string>
     <string name="third">third</string>
+    
+<!-- PrivacyPolicy Activity -->
+    <string name="action_privacy_policy_activity">Privacy and Policy</string>
+    <string name="privacy_policy_1">Thanks for choosing Geet!
+    At Geet, we want to give you the best possible experience to ensure
+    that you enjoy our service. To do this we need to understand your streaming
+    habits so we can deliver an exceptional and personalized service
+    specifically for you. Your privacy and the security of your personal data
+    is, and will always be, enormously important to us.</string>
+
+    <string name="privacy_policy_2">So, we want to
+transparently explain how and why we gather, store, share and use your
+personal data - as well as outline the controls and choices you have
+around when and how you choose to share your personal data.
+That is our objective!</string>
+
+<!-- About Activity -->
+    <string name="action_about_activity">About</string>
+    <string name="about_geet">With Geet, it’s easy to find the right music or podcast for every moment – on your phone, your computer, your tablet and more.There are millions of tracks and episodes on Geet. So whether you’re behind the wheel, working out, partying or relaxing, the right music or podcast is always at your fingertips. Choose what you want to listen to, or let Geet surprise you.You can also browse through the collections of friends, artists, and celebrities, or create a radio station and just sit back.Soundtrack your life with Geet. Subscribe or listen for free</string>
 </resources>
